@@ -1,0 +1,22 @@
+name: Synthetic-only checks
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Verify approved file set and hashes
+        run: python3 tools/verify_publication.py
+      - name: Run fictional offline tests
+        run: python3 -m unittest discover -s tests -v
