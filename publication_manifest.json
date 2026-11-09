@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "files": {
-    ".github/workflows/synthetic.yml": "c5ed4dd1f5c7696fd7dfcb2cee46803899389f34814c003c310221417c20d216",
+    ".github/workflows/synthetic.yml": "7dfcc01cf7c257b6beb7419605212ee43ed45f08e49b053528a1b420b530c981",
     "README.md": "ac0728c1a8e5ae174f0dd6d9b4afffbcec1151f71df3855538b4b6a54275f084",
     "fixtures/fictional_disclosure.json": "808c572b09f42f147d9419e17e28a73f2f70d3c2351678677593c7c52b234f76",
     "tests/test_synthetic_fixture.py": "88a866423de5cc89470462c1c30b6a01900c7ddcf73b060c41ac475851faf43a",
