@@ -1,0 +1,15 @@
+{
+  "synthetic_only": true,
+  "source": "FICTIONAL-NOT-SEC",
+  "records": [
+    {
+      "event_id": "FICTIONAL-EVENT-0001",
+      "issuer": "Imaginary Quartz Labs",
+      "form": "4",
+      "transaction_code": "P",
+      "transaction_at": "2026-01-10T09:00:00+00:00",
+      "filed_at": "2026-01-11T13:00:00+00:00",
+      "first_seen_at": "2026-01-11T13:01:00+00:00"
+    }
+  ]
+}
